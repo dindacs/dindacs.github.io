@@ -1,39 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
+.navbar-nav{
+  display: flex;
+  align-items: flex-end;
 }
-
-/* START INDEX STAT */
-nav .navbar-brand{
-  font-size: 1.7rem;
-  font-weight: 500;
-  line-height: 1.2;
-  padding: 5px 16px!important;
-}
-/* END INDEX STAT */
-
-/* START DASHBOARD STAT */
-.stat-utama .list-group-item{
-  padding: 20px;
-}
-
-.stat-utama .list-group-item a{
-  font-size: 1.2rem;
-  float: right;
-  padding: 0;
-}
-
-.stat-1 .list-group-item{
-  background-color: #6054a6;
-}
-
-.stat-2 .list-group-item{
-  background-color: #ce393b;
-}
-
-.stat-3 .list-group-item{
-  background-color: #f07d24;
-}
-
-/* END DASHBOARD STAT */
-
