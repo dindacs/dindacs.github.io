@@ -6,7 +6,7 @@
 body{
   box-sizing: border-box;
   position: relative;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* **************** */
 header{
@@ -32,29 +32,54 @@ header{
   font-size: 1.2rem;
 }
 
-.nav-link a:hover{
-  color: cornflowerblue;
+.nav-item .nav-link:hover{
+  color: coral;
   cursor: pointer;
 }
 /* ******************* */
 .img-profil{
   height: 100vh;
-  margin-bottom: 0;
-  margin-right: 0;
 }
 
-.img-profil img{
-  border-radius: 50%;
+.img-profil .imga{
+  overflow: hidden;
+  margin-top: 45px;
+  width: 90%;
 }
 
-.text-profil{
-  height: 50vh;
-}
+/* .text-profil{
+  top:-32px;
+} */
 
-.text-profil h1{
-  font-size: 1.7rem;
+.text-profil h2{
+  font-size: 2.3rem;
+  font-weight: bold;
 }
 
 .text-profil p{
   font-size: 1.3rem;
+}
+
+.text-profil span{
+  color: coral;
+}
+
+.btn-cv{
+  background-color: coral;
+  border-color: coral;
+}
+
+/* **************** */
+.about-me{
+  margin-top: 200px;
+}
+
+.about-me h1{
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-bottom: 3px solid coral;
+}
+
+.text-me p{
+  font-size: 0.9rem;
 }
