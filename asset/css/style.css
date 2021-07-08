@@ -10,7 +10,7 @@ body{
 }
 /* **************** */
 header{
-  background-image: url(../../image/1.jpg);
+  background-image: url(../../image/background1.jpg);
   width: 100%;
   height: 100vh;
   background-position: center;
@@ -35,4 +35,26 @@ header{
 .nav-link a:hover{
   color: cornflowerblue;
   cursor: pointer;
+}
+/* ******************* */
+.img-profil{
+  height: 100vh;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.img-profil img{
+  border-radius: 50%;
+}
+
+.text-profil{
+  height: 50vh;
+}
+
+.text-profil h1{
+  font-size: 1.7rem;
+}
+
+.text-profil p{
+  font-size: 1.3rem;
 }
