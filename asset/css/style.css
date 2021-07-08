@@ -1,4 +1,4 @@
-.navbar-nav{
+.nav-link a{
   display: flex;
-  align-items: flex-end;
+  justify-content: space-around;
 }
