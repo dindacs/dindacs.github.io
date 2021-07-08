@@ -1,4 +1,18 @@
-.nav-link a{
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  box-sizing: border-box;
+  position: relative;
+}
+
+.nav-item a{
   display: flex;
   justify-content: space-around;
+}
+
+header .bc-big{
+  background-image: url(../../image/2.jpg);
 }
