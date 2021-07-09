@@ -243,15 +243,20 @@ header{
 /* **************** */
 .project{
   background-image: url(../../image/background1.jpg);
-  /* height: 100vh; */
   width: 100%;
   background-position: center;
   background-size: cover;
   overflow: hidden;
 }
 
-.port-1{
+.single-item{
   padding: 20px;
+}
+
+.single-item span{
+  font-size: 1.8rem;
+  color: #c1c3c5;
+  position: absolute;
 }
 
 .project .card{
