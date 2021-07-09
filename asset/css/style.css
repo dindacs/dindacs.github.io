@@ -243,13 +243,20 @@ header{
 /* **************** */
 .project{
   background-image: url(../../image/background1.jpg);
-  height: 100vh;
+  /* height: 100vh; */
   width: 100%;
   background-position: center;
   background-size: cover;
   overflow: hidden;
 }
 
+.port-1{
+  padding: 20px;
+}
+
+.project .card{
+  border-radius: 0;
+}
 /* **************** */
 
 .contact label{
