@@ -70,12 +70,13 @@ header{
 }
 
 .btn{
+  background-color: #e75b1e;
   border: 2px solid #e75b1e;
   padding: 10px 20px;
 }
 
 .btn:hover{
-  background-color: #e75b1e;
+  background: transparent;
   border: 2px solid #e75b1e;
   padding: 10px 20px;
 }
@@ -351,6 +352,7 @@ header{
 
 .contact .form-control{
   background-color: #131313;
+  color: #c1c3c5;
 }
 
 /* ******** */
