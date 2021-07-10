@@ -11,13 +11,19 @@ $('.single-item').slick({
   infinite: true,
   speed: 300,
   slidesToShow: 1,
-  adaptiveHeight: true
-  // autoplay: true,
-  // autoplaySpeed: 2500
+  adaptiveHeight: true,
+  autoplay: true,
+  autoplaySpeed: 2500
 });
 
 $(document).ready(function () {
   $(".navbar ul a").on("click", function (e) {
+    e.preventDefault();
+    const href = $(this).attr("href");
+    $("html, body").animate({ scrollTop: $(href).offset().top - 60 }, 800)
+  });
+
+  $(".footer-copy a").on("click", function (e) {
     e.preventDefault();
     const href = $(this).attr("href");
     $("html, body").animate({ scrollTop: $(href).offset().top - 60 }, 800)
