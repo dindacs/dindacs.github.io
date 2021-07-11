@@ -30,5 +30,5 @@ $('.single-item').slick({
   slidesToShow: 1,
   adaptiveHeight: true,
   autoplay: true,
-  autoplaySpeed: 2500
+  autoplaySpeed: 1500
 });
